@@ -1,5 +1,5 @@
-from utilities import to_obj
-from chain_3_1 import search_result_urls_chain
+from ai_agents.prompting.langcahin_summary_engine.utilities import to_obj
+from ai_agents.prompting.langcahin_summary_engine.chain_3_1 import search_result_urls_chain
 
 # test chain invocation
 web_search_str = '{"search_query": "Astorga Spain attractions", "user_question": "What can I see and do in the Spanish town of Astorga?"}'

@@ -1,4 +1,4 @@
-from chain_5_1 import web_research_chain
+from ai_agents.prompting.langcahin_summary_engine.chain_5_1 import web_research_chain
 
 # test chain invocation
 question = 'What can I see and do in the Spanish town of Astorga?'

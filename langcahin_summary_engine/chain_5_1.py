@@ -1,11 +1,11 @@
-from llm_models import get_llm
-from prompts import (
+from ai_agents.prompting.langcahin_summary_engine.llm_models import get_llm
+from ai_agents.prompting.langcahin_summary_engine.prompts import (
     RESEARCH_REPORT_PROMPT_TEMPLATE
 )
-from chain_1_2 import assistant_instructions_chain
-from chain_2_1 import web_searches_chain
-from chain_3_1 import search_result_urls_chain
-from chain_4_1 import search_result_text_and_summary_chain
+from ai_agents.prompting.langcahin_summary_engine.chain_1_2 import assistant_instructions_chain
+from ai_agents.prompting.langcahin_summary_engine.chain_2_1 import web_searches_chain
+from ai_agents.prompting.langcahin_summary_engine.chain_3_1 import search_result_urls_chain
+from ai_agents.prompting.langcahin_summary_engine.chain_4_1 import search_result_text_and_summary_chain
 
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnableLambda

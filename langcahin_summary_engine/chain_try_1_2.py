@@ -1,4 +1,4 @@
-from chain_1_2 import assistant_instructions_chain
+from ai_agents.prompting.langcahin_summary_engine.chain_1_2 import assistant_instructions_chain
 
 # test chain invocation
 question = 'What can I see and do in the Spanish town of Astorga?'

@@ -1,4 +1,4 @@
-from web_searching import web_search
+from ai_agents.prompting.langcahin_summary_engine.web_searching import web_search
 from langchain_core.runnables import RunnableLambda
 
 NUM_SEARCH_RESULTS_PER_QUERY = 3
